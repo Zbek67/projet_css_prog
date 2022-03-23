@@ -1,0 +1,100 @@
+html, body{  
+    margin: 60px 0 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../images/background.png);
+}
+
+header { 
+    background-image: url(../images/header.jpg);
+    height: 100px;
+    position: fixed;
+    color: white;
+    top: 0;
+    left:0;
+    right: 0;
+}
+
+#logo { 
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 100px;
+    width: auto;
+}
+
+img { 
+    height: 200px;
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+nav { 
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.navRedirect { 
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: inherit;
+}
+
+a:hover { 
+    color: black;
+    font-weight: bold;
+}
+
+.activite, .evenement { 
+    float: left;
+    width: calc(25% - 60px);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 415px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.4);
+    border: 3px solid black;
+}
+
+.evenement { 
+    height: 290px;
+}
+
+.activite:hover { 
+    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.titreActivite { 
+    text-decoration: underline;
+    font-size: 1.7em;
+}
+
+.descriptionActivite, .descriptionEvenement { 
+    font-style: italic;
+}
+
+.descriptionEvenement { 
+    font-size: 1.7em;
+}
+
+.titre { 
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{ 
+    clear: both;
+
+}
+
+.listeFooter { 
+    float: left;
+    width: 33%;
+}
